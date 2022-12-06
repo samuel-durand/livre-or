@@ -23,7 +23,7 @@ $row = $resultat->fetch_all();
 <body>
     
 
-    <header>
+<header>
         <nav>
             <ul>
                 <li><a href="index.php">acceuil</a></li>
@@ -32,13 +32,14 @@ $row = $resultat->fetch_all();
                 <li><a href="livre-or.php">livre-or</a></li>
                 <li><a href="commentaire.php">commentaire</a></li>
                 <li><a href="profil.php">profil</a></li>
+                <li><php</li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div>
-        <table><br>
+        
+        <table>
             <thead>
                 <th>poste le</th>
                 <th>pseudo</th>

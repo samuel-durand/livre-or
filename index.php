@@ -10,19 +10,19 @@
 <body>
     
 
-    <header>
+<header>
         <nav>
             <ul>
                 <li><a href="index.php">acceuil</a></li>
                 <li><a href="inscription.php">inscription</a></li>
                 <li><a href="connexion.php">connexion</a></li>
                 <li><a href="livre-or.php">livre-or</a></li>
+                <li><a href="commentaire.php">commentaire</a></li>
                 <li><a href="profil.php">profil</a></li>
             </ul>
         </nav>
     </header>
 
-    </header>
     
 
 
