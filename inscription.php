@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 
         else {
             $resultat = mysqli_query($mysqli,"INSERT INTO utilisateurs (`login`,`password`) VALUES ('$login','$password')");
-            header("Location : connexion.php");
+            header("Location: connexion.php");
         }
     }
 
