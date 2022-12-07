@@ -52,8 +52,8 @@ if(isset($_POST['submit'])){
     <section>
         <h1><?php echo "Bienvenue dans votre compte ".'<span>'.$_SESSION['login'].'</span>'; ?></h1>
     </section>
+    
 
-    <<h1><?php echo "modifier votre compte ".'<span>'.$_SESSION['login'].'</span>';?></h1>
     
     <main>
     <form  method="POST" align="center">

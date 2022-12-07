@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
     
     <main>
     <form method="POST" action="" align="center">
-
+    <br>
     <label for="login">Login :</label><br>
     <input type="text" name="login" id="login" placeholder="pseudo" required="required"><br><br>
 

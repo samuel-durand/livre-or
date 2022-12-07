@@ -93,3 +93,11 @@ section h2 {
     text-align: center;
 }
 
+
+section .name h1 {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
