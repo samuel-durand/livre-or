@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" /> 
     <title>commentaire</title>
 </head>
 <body>
@@ -33,20 +33,22 @@ if(isset($_POST['submit'])){
             <ul>
                 <li><a href="index.php">acceuil</a></li>
                 <li><a href="inscription.php">inscription</a></li>
-                <li><a href="connexion.php">connexion</a></li>
                 <li><a href="livre-or.php">livre-or</a></li>
                 <li><a href="commentaire.php">commentaire</a></li>
                 <li><a href="profil.php">profil</a></li>
+                <li><a href="connexion.php">connexion</a></li>
+                <li><a href="deconnexion.php">deconnexion</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <form method="POST" action="">
-            <label for="commentaire">message</label>
-            <input type="text" name="commentaire" id="comment">
-            <input type="submit" value="Envoyez le commentaire" name="submit">
+        <form method="POST" action="" align="center">
+            <label for="commentaire">message</label><br><br>
+            <input type="text" name="commentaire" placeholder="votre commentaire" id="comment"><br><br>
+            <input type="submit" value="Envoyez le commentaire" name="submit"><br>
+            <br>
         </form>
     </main>
 

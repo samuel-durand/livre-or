@@ -17,7 +17,7 @@ $row = $resultat->fetch_all();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" /> 
     <title>livre d'or</title>
 </head>
 <body>
@@ -28,10 +28,11 @@ $row = $resultat->fetch_all();
             <ul>
                 <li><a href="index.php">acceuil</a></li>
                 <li><a href="inscription.php">inscription</a></li>
-                <li><a href="connexion.php">connexion</a></li>
                 <li><a href="livre-or.php">livre-or</a></li>
                 <li><a href="commentaire.php">commentaire</a></li>
                 <li><a href="profil.php">profil</a></li>
+                <li><a href="connexion.php">connexion</a></li>
+                <li><a href="deconnexion.php">deconnexion</a></li>
                 <li><php</li>
             </ul>
         </nav>
@@ -45,7 +46,7 @@ $row = $resultat->fetch_all();
                 <th>pseudo</th>
                 <th>commentaires</th>
             </thead>
-            <tbody>
+            <tbody align="center">
                 <?php
                 for ($i=0; isset($row[$i]) ; $i++) { 
                     echo "<tr>";
