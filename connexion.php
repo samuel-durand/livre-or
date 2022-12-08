@@ -57,16 +57,17 @@ if(isset($_POST['submit'])){
     <main>
     <form method="POST" action="" align="center">
     <br>
-    <label for="login">Login :</label><br>
+    <label for="login">Login :</label><br><br>
     <input type="text" name="login" id="login" placeholder="pseudo" required="required"><br><br>
 
-    <label for="password">password :</label><br>
+    <label for="password">password :</label><br><br>
     <input type="password" name="password" id="password" placeholder="password" required="required"><br><br>
 
-    <input type="submit" value="se connecter" name="submit"><br>
+    <input type="submit" value="se connecter" name="submit"><br><br>
 
     
     </form>
+
     </main>
 
     <footer>

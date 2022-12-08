@@ -44,11 +44,12 @@ if(isset($_POST['submit'])){
 
     <main>
         
+        
         <form method="POST" action="" align="center">
             <br>
             <label for="commentaire">message</label><br><br>
             <input type="text" name="commentaire" placeholder="votre commentaire" id="comment"><br><br>
-            <input type="submit" value="Envoyez le commentaire" name="submit"><br>
+            <input type="submit" value="Envoyez le commentaire"  name="submit"><br>
             <br>
         </form>
     </main>

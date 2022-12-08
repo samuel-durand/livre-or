@@ -57,13 +57,14 @@ if(isset($_POST['submit'])){
     
     <main>
     <form  method="POST" align="center">
-        <label for="login">login</label><br>
+        <br>
+        <label for="login">login</label><br><br>
         <input type="text" placeholder="login" name="login"><br><br>
         
-        <label for="password">password </label><br>
+        <label for="password">password </label><br><br>
         <input type="password" placeholder="password" name="password"><br><br>
 
-        <input type="submit" value="mettre à jour" name="submit">
+        <input type="submit" value="mettre à jour" name="submit"><br><br>
     </form>
     </main>
     
