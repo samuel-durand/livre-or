@@ -34,21 +34,9 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     
+    <!--header-->
 
-<header>
-        <nav>
-            <ul>
-                <li><a href="index.php">acceuil</a></li>
-                <li><a href="inscription.php">inscription</a></li>
-                <li><a href="livre-or.php">livre-or</a></li>
-                <li><a href="commentaire.php">commentaire</a></li>
-                <li><a href="profil.php">profil</a></li>
-                <li><a href="connexion.php">connexion</a></li>
-                <li><a href="deconnexion.php">deconnexion</a></li>
-                <li><php</li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'header.php' ?>
     <section>
         <h1><?php echo "Bienvenue dans votre compte ".'<span>'.$_SESSION['login'].'</span>'; ?></h1>
     </section>

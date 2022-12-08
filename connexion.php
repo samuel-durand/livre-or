@@ -38,21 +38,13 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     
+   <!--header-->
 
-<header>
-        <nav>
-            <ul>
-                <li><a href="index.php">acceuil</a></li>
-                <li><a href="inscription.php">inscription</a></li>
-                <li><a href="livre-or.php">livre-or</a></li>
-                <li><a href="commentaire.php">commentaire</a></li>
-                <li><a href="profil.php">profil</a></li>
-                <li><a href="connexion.php">connexion</a></li>
-                <li><a href="deconnexion.php">deconnexion</a></li>
-                <li><php</li>
-            </ul>
-        </nav>
-    </header>
+   <?php include 'header.php' ?>
+
+
+
+   <!--login-->
     
     <main>
     <form method="POST" action="" align="center">
@@ -63,7 +55,7 @@ if(isset($_POST['submit'])){
     <label for="password">password :</label><br><br>
     <input type="password" name="password" id="password" placeholder="password" required="required"><br><br>
 
-    <input type="submit" value="se connecter" name="submit"><br><br>
+    <input type="submit" value="se connecter" name="submit"><br>
 
     
     </form>
