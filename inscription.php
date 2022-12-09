@@ -68,7 +68,7 @@ if(isset($_POST['submit'])){
 
     <section>
 
-    
+    <main>
     <form method="POST" action="" align="center">
      
     <br>

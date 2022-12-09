@@ -4,8 +4,11 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: red;
+    background: #222D32
 }
+
+
+
 
 
 header {
@@ -15,7 +18,10 @@ header {
     background: #EECDA3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: gradient 15s ease infinite;
 }
+
+
 
 
 header nav li {
@@ -46,9 +52,11 @@ main table {
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
+    overflow: wrap;
     width: 750px;
     position: relative;
-    top: 100px;
+    top: 300px;
+    left: 70px;
     -webkit-box-shadow:0 0 20px #FFD700; 
     -moz-box-shadow: 0 0 20px #FFD700; 
     box-shadow:0 0 20px #FFD700;
@@ -69,7 +77,8 @@ main table {
     border-radius: 5px;
     width: 450px;
     position: relative;
-    top: 250px;
+    top: 400px;
+    left: 40px;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -83,7 +92,7 @@ main table {
 
 
 main label {
-    color: white;
+    background-color: #212335;
 }
 
 
@@ -97,7 +106,7 @@ section {
 
  form {
     position: relative;
-    top: 100px;
+    top: -550px;
     width: 500px;
     background-color: rgba(255,255,255,0.13);
     border-radius: 10px;
@@ -143,8 +152,17 @@ input[type="submit"] {
 }
 
 label {
-    color: white;
     background-color: rgba(255,255,255,0.13);
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
 }
+
+
+button {
+    position: relative;
+    top: 200px;
+    right: 670px;
+}
+
+
+
