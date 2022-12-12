@@ -5,7 +5,7 @@ include 'connect.php';
 if(isset($_POST['submit'])){
     $id = $_SESSION['id'];
     $date = date("Y-m-d H:i:s");
-    $commentaire = $_POST['commentaire'];
+    $commentaire = htmlspecialchars($_POST['commentaire']);
 
 
     $resultat = mysqli_query($mysqli,"INSERT INTO `commentaires` (`id`,`commentaire`,`id_utilisateur`,`date`) VALUES (NULL,'$commentaire','$id','$date');");

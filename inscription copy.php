@@ -28,6 +28,9 @@ if(isset($_POST['submit'])){
         }
     }
 
+    else {
+        echo "Les mot de passe ne sont pas identiques !";
+    }
 }
 
 

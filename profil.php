@@ -13,9 +13,7 @@ if(isset($_POST['submit'])){
         echo "Votre profil à été mis à jour ".$_SESSION['login'];
     }
 
-    else{
-        echo "impossible de mettre à jour";
-    }
+
 }
 
 

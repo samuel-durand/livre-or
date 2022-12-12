@@ -19,9 +19,7 @@ if(isset($_POST['submit'])){
     }
     
 
-    else {
-        echo "Le login et/ou le mot de passe est incorrect !";
-    }
+
 }
 
 ?>
